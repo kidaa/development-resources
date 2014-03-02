@@ -35,6 +35,8 @@ mailing list.  You will need a [GitHub account](http://github.com/) for that
 (you can also clone the repository to your computer and send us patches, but
 using GitHub web interface is much more convenient).
 
+The easiest way to contribute is by using GitHub web interface:
+
 2. Go to this repository's
 [GitHub page](https://github.com/openlilylib/development-resources).
 3. To add a new file, click on [this button]
