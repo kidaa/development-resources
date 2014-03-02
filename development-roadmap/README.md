@@ -1,20 +1,20 @@
 This is intended as a high-level overview of what we should do with Lilypond.
+As opposed to the issue tracker, which lists specific problems/todos,
+this list should contain only coherent, big and well-defined "projects".
+Any specific research about specific issues doesn't belong here.
 
-TODO How is this different from an issue tracker?
+This is in no way a concrete plan of work, we don't know when we'll tackle these
+issues.
 
-NOTE: this is a very chaotic dump right now, should improve in aaa few hours.
 
 TODO we should probably move here all stuff from http://lilypond.org/gsoc-2012.html.
 
-Any specific research about specific issues doesn't belong here.
-
-This is in no way a concrete plan and there's no guarantee that we'll do this stuff in any order or deadline.
-
-urs musicology roadmap (cannot find it at the moment.... Urs?)
-
+TODO: add Urs' "musicology roadmap" (cannot find it at the moment.... Urs?)
 
 
 ### Suggestions from David Kastrup's email:
+
+TODO: distribute these among categories below.
 
 #### Bachelor:
 
@@ -44,6 +44,25 @@ And quite a bit more.  There is always the diffuse
   approaches
 
 
+Internal improvements
+---------------------
+
+These projects are about improving the source code itself - making it
+more robust, modular, maintainable, efficient etc.
+
+### Multithreading
+
+Make LilyPond take advantage of current multithreaded processors.  This will be
+hard, as there are many interdependent things in LilyPond.  Mentoring
+from one of the main authors (Han-Wen or Jan) may be necessary.
+
+
+Features/Bugs
+-------------
+
+These projects are about what is possible to do with LilyPond.
+
+
 ### MusicXML
 
 Add MusicXML export and improved import.
@@ -52,13 +71,6 @@ Add MusicXML export and improved import.
 
 TODO: link to all musicXML-related notes, plans, resources etc. Or maybe they should
 be actually placed in this repo?
-
-
-### Multithreading
-
-Make LilyPond take advantage of current multithreaded processors.  This will be
-hard, as there are many interdependent things in LilyPond.  Mentoring
-from one of the main authors (Han-Wen or Jan) may be necessary.
 
 
 ### Music fonts:
@@ -80,7 +92,8 @@ They are mostly related to spacing.
 - magnetic skylines
 - elastic dynamic/text placement
 - lyrics alignment and other stuff, most notably issue 2456
-
+- tie formatting (Janek researched this for a long time and he hopes
+  to add his results to this repo)
 
 ### Improving partcombine
 
@@ -93,7 +106,16 @@ limited.  It would be good to:
   when necessary)
 
 
-instruments:
+
+LilyPond interfaces
+-------------------
+
+These projects are about how users interact with LilyPond.
+
+
+### Instruments
+
+- developing further Janek's predefined instruments
 - easier to construct \score blocks
 - more standarized source structure
 - simplifying orchestralLily
