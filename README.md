@@ -52,3 +52,11 @@ License
 This repository is [licensed](LICENSE) under GPL v3, mostly because
 that's the license used by LilyPond itself.  We may consider relicensing
 it if needed.
+
+
+Contact
+-------
+
+[lilypond-devel@gnu.org](mailto:lilypond-devel@gnu.org)  
+[ul@openlilylib.org](mailto:ul@openlilylib.org)  
+[jan.warchol@gmail.com](mailto:jan.warchol@gmail.com)  
