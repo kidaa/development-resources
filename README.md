@@ -32,6 +32,13 @@ the change.
 When I've moved from a shared hosting to a root server, and once I've managed to install a
 decent (open source) web interface for Git, we could host it at openlilylib.org.
 
+#### But why a git repository at all?
+
+Collaboration is a built-in feature of git repositories, they are portable,
+and if something goes wrong there are multiple clones from which stuff can be restored.
+We could have created a wiki - but with GitHub's convenient web interface, editing
+and viewing files in a git repo is just as easy as editing a wiki.
+
 
 Contributing
 ------------
