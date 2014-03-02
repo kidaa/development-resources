@@ -83,7 +83,7 @@ be actually placed in this repo?
 
 ### Improving partcombine
 
-`\partcombine` is a very useful feature of LilyPond, but currectly it is severely
+`\partcombine` is a very useful feature of LilyPond, but currently it is severely
 limited.  It would be good to:
 * add built-in support for lyrics
 * add support for combining more than 2 voices
@@ -98,7 +98,18 @@ instruments:
 - simplifying orchestralLily
 - helping Denemo support all lilypond files
 
-frescobaldi graphical editing
+
+### GUI
+
+LilyPond will continue to use plaintext file format, but it would be
+good to have some graphical editing capabilities.  There are a few things
+that can be done - some easy and obviously a good idea, some difficult:
+* add support for graphical editing in frescobaldi (e.g. dragging a dynamic
+  around with a mouse in the _music view_, shaping a slur by dragging its
+  control-points, etc) - Peter Bjuhr had already started working on this.
+* improving Denemo/Schikkers List/creating another GUI
+* making MuseScore use LilyPond internally (that's just a very crazy idea
+  from Janek)
 
 
 ### Multithreading
