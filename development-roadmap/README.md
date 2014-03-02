@@ -24,33 +24,34 @@ Gsoc ideas page:
 
 
 
-david K email:
+### Suggestions from David Kastrup's email:
 
+#### Bachelor:
 
+* rewrite and benchmark skyline algorithms according to specs
 
-Bachelor: rewrite and benchmark skyline algorithms according to specs
+* convert to GUILEv2 (that one's more like a term paper).
 
-          convert to GUILEv2 (that one's more like a term paper).
+#### Master:
 
-master: derive, prove and corrobate the asymptotic behavior of former
+* derive, prove and corrobate the asymptotic behavior of former
 
-        refactor and create framework for outputs, adding XML output
+* refactor and create framework for outputs, adding XML output
 
-        refactor page output, adding several examples for user-defined
-        page layouts (with footnote layers suitable for critical typesetting)
+* refactor page output, adding several examples for user-defined
+  page layouts (with footnote layers suitable for critical typesetting)
 
-        redesign and refactor engraver layers
+* redesign and refactor engraver layers
 
-Phd:    design optimization specification framework, migration strategy,
-        bind page breaking into it, start migrating engravers
+#### Phd:    
+
+* design optimization specification framework, migration strategy,
+  bind page breaking into it, start migrating engravers
 
 And quite a bit more.  There is always the diffuse
 
-Bachelor:
-        benchmark a whole lot and improve the hotspots until deadline
-        approaches
-
-
+* benchmark a whole lot and improve the hotspots until deadline
+  approaches
 
 
 ### MusicXML
@@ -60,7 +61,7 @@ Add MusicXML export and improved import.
 - integrating improvements from Philomelos
 
 TODO: link to all musicXML-related notes, plans, resources etc. Or maybe they should
-be placed in this repo?
+be actually placed in this repo?
 
 
 
@@ -106,6 +107,5 @@ Make LilyPond take advantage of current multithreaded processors.  This will be
 hard, as there are many interdependent things in LilyPond.  Mentoring
 from one of the main authors (Han-Wen or Jan) may be necessary.
 
-migrating to Guile
 
 Perspectives (what lilypond can look like in 1, 3, 5 years):
