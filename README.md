@@ -3,6 +3,8 @@ What's this?
 
 A place to put miscellaneous LilyPond resources, notes, ideas, drafts, etc.
 See READMEs in the subdirectories to learn what's stored there.
+This repository is unofficial and very informal, kind of a shared notepad.
+Probably the best way to describe it is "lilypond stuff" :-)
 
 #### What's wrong with the mailing list?
 
