@@ -26,6 +26,10 @@ and because GitHub allows to very easily edit the documents using a web interfac
 If you know another place which could be used instead of GitHub, go ahead and lead
 the change.
 
+*Suggestion (by Urs):*  
+When I've moved from a shared hosting to a root server, and once I've managed to install a
+decent (open source) web interface for Git, we could host it at openlilylib.org.
+
 
 Contributing
 ------------
