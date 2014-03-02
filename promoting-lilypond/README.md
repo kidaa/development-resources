@@ -27,7 +27,7 @@ Engraving comparisons by Janek, in particular Eja Mater choral score.
 
 schoenberg example from urs tutorial
 
-[Engraving challenges_ contest](https://github.com/engraving-challenges/main)
+[_Engraving challenges_ contest](https://github.com/engraving-challenges/main)
 
 
 ### Advantages of text format
