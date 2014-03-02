@@ -4,11 +4,7 @@ TODO How is this different from an issue tracker?
 
 NOTE: this is a very chaotic dump right now, should improve in aaa few hours.
 
-Benchmarks
-
-GOP
-
-GLISS
+TODO we should probably move here all stuff from http://lilypond.org/gsoc-2012.html.
 
 Any specific research about specific issues doesn't belong here.
 
@@ -17,11 +13,10 @@ This is in no way a concrete plan and there's no guarantee that we'll do this st
 urs musicology roadmap (cannot find it at the moment.... Urs?)
 
 
-Gsoc ideas page:
-- grace notes
-- ties
-- slurs
+### Standarizing syntax
 
+Also known as GLISS (Grand Lilypond Input Syntax Standarization).
+Unfortunately, this project is not well-defined.
 
 
 ### Suggestions from David Kastrup's email:
@@ -73,7 +68,10 @@ be actually placed in this repo?
 - parametrizing code so that other style glyphs could be easily produced from it (what i did with naturals)
 
 
-### spacing
+### Typesetting engine improvements
+
+Here are some of 
+They are mostly related to spacing.
 - area spacing
 - magnetic spacing
 - elastic placement
@@ -118,5 +116,3 @@ Make LilyPond take advantage of current multithreaded processors.  This will be
 hard, as there are many interdependent things in LilyPond.  Mentoring
 from one of the main authors (Han-Wen or Jan) may be necessary.
 
-
-Perspectives (what lilypond can look like in 1, 3, 5 years):
