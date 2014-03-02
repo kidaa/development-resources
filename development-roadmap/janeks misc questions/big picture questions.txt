@@ -1,0 +1,7 @@
+why stem attachment to noteheads isn't done via self-alignment interface?
+
+Why XY-offsets don't just work for everything?  E.g.:
+ - why can't i move the note (and everything attached to it, like stems and beams) by overriding X-offset? 
+ - why can't i move accidentals by overriding offsets?
+ 
+should we have properties like XY-offset, minimum-XY-offset, gap, mimimum-gap, maximum-gap, etc. or rather sub-properties "minimum" and "maximum" automatically available to all properties?

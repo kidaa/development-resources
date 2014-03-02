@@ -1,0 +1,8 @@
+
+release schedule (2 times in year, 2 month fixed freeze, after 2 (3?) freezes make a release regardless of the state of affairs.
+
+Why it may be good to have lyrics as a property of the notes?  Proabably because of partcombine - we'd like to be able to parrtcombine lyrics.
+
+What should be our general user/programming interface, for example offsets?
+For example, smart y-offsets for articulations.  What about some smart parsing of the values, for example being able to say 2ss as a value?  That would be very user-friendly, and shouldn't be too complicated to do.  Similar thing was done with barline interface. 
+Another example: setting arpeggio appearance should be done via its 'style' property, i believe (currently you just override a stencil).  Another thing with the arpeggio: its direction (up/down arrow) is stored in 'arpeggio-direction' which is quite counterintuitive.  We don't use 'direction' in this case because it's used for controlling left/right placement.  Maybe we should use 'placement' for placement, and 'direction' for direction everywhere?
