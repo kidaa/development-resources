@@ -1,6 +1,6 @@
 This is intended as a high-level overview of what we should do with Lilypond.
 As opposed to the issue tracker, which lists specific problems/todos,
-this list should contain only coherent, big and well-defined "projects".
+this list should contain only coherent, big (and hopefully well-defined) "projects".
 Any specific research about specific issues doesn't belong here.
 
 This is in no way a concrete plan of work, we don't know when we'll tackle these
