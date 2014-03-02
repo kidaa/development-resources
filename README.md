@@ -39,6 +39,8 @@ and if something goes wrong there are multiple clones from which stuff can be re
 We could have created a wiki - but with GitHub's convenient web interface, editing
 and viewing files in a git repo is just as easy as editing a wiki.
 
+If you have a better idea, let us know!
+
 
 Contributing
 ------------
