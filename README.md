@@ -43,12 +43,12 @@ and viewing files in a git repo is just as easy as editing a wiki.
 Contributing
 ------------
 
-We will grant push access to this repo to everyone whom we recognize from the
-mailing list.  You will need a [GitHub account](http://github.com/) for that
+We will grant write access to everyone whom we recognize from the
+mailing lists.  You will need a [GitHub account](http://github.com/) for that
 (you can also clone the repository to your computer and send us patches, but
 using GitHub web interface is much more convenient).
 
-The easiest way to contribute is by using GitHub web interface:
+To contribute using GitHub web interface:
 
 2. Go to this repository's
 [GitHub page](https://github.com/openlilylib/development-resources).
@@ -58,7 +58,9 @@ To modify a file, click its name and then click _Edit_.
 5. Write what you have changed (form at the bottom)
 and click _Commit_.
 
-If you don't have push access yet, you have to click _Send pull request_.
+If you don't have write access yet, you have to click _Send pull request_.
+
+Dead simple, isn't it?
 
 
 License
