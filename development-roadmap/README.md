@@ -113,13 +113,24 @@ LilyPond interfaces
 These projects are about how users interact with LilyPond.
 
 
-### Instruments
+### Instrument templates
 
-- developing further Janek's predefined instruments
-- easier to construct \score blocks
-- more standarized source structure
-- simplifying orchestralLily
-- helping Denemo support all lilypond files
+Writing notes ("musical content") in LilyPond is pretty straightforward
+and anyone can learn it in half an hour.  But specifying the structure
+of the music (i.e. writing \score block, defining staves, voices, etc.)
+is quite difficult and requires significant expertise.
+
+One way of making this simpler for the users is by providing ready-to-use
+building blocks (an additional level of abstraction).  It seems that
+creating more custom contexts with some kind of a hierarchy could be a
+good thing.
+
+- develop further Janek's [predefined instruments]
+(https://github.com/openlilylib/snippets/tree/master/templates/predefined-instruments)
+- this should allow for more standarized structure of lily sources
+- orchestralLily could serve as an inspiration
+- this may be a step towards Denemo supporting all lilypond files
+  (not just the ones that created by itself)
 
 
 ### GUI
