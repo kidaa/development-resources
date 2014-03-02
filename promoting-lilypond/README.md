@@ -5,6 +5,8 @@ Some things should be put inside this directory, some will be just linked to.
 
 **TODO:** Ideally all entries should have a brief description and a link.
 
+_Note:_ when this file gets too big, it should be split.
+
 
 ### Examples of complex scores typeset with LilyPond:
 
