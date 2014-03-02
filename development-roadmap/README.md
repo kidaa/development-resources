@@ -13,11 +13,6 @@ This is in no way a concrete plan and there's no guarantee that we'll do this st
 urs musicology roadmap (cannot find it at the moment.... Urs?)
 
 
-### Standarizing syntax
-
-Also known as GLISS (Grand Lilypond Input Syntax Standarization).
-Unfortunately, this project is not well-defined.
-
 
 ### Suggestions from David Kastrup's email:
 
@@ -59,24 +54,32 @@ TODO: link to all musicXML-related notes, plans, resources etc. Or maybe they sh
 be actually placed in this repo?
 
 
+### Multithreading
+
+Make LilyPond take advantage of current multithreaded processors.  This will be
+hard, as there are many interdependent things in LilyPond.  Mentoring
+from one of the main authors (Han-Wen or Jan) may be necessary.
+
 
 ### Music fonts:
 - adding a framework for easy switching between various fonts, support Gonville
 - making font weight independent from size
-- adding variants of font glyphs
+- adding variants of font glyphs (on-line and on-space, shortened, narrowed)
 - clening up mf code
-- parametrizing code so that other style glyphs could be easily produced from it (what i did with naturals)
+- parametrizing code so that one can easily produce a differently styled
+  font from it (example: what i did with naturals, commit 166d6eab595)
 
 
 ### Typesetting engine improvements
 
-Here are some of 
+Here are some of the most important and prominent (i.e. affecting a lot
+of scores and requiring significant amount of manual adjustments to fix)
+issues related to how the output looks like.  
 They are mostly related to spacing.
 - area spacing
-- magnetic spacing
-- elastic placement
-- lyrics
-- default page margins&layout
+- magnetic skylines
+- elastic dynamic/text placement
+- lyrics alignment and other stuff, most notably issue 2456
 
 
 ### Improving partcombine
@@ -110,9 +113,7 @@ that can be done - some easy and obviously a good idea, some difficult:
   from Janek)
 
 
-### Multithreading
+### Standarizing syntax
 
-Make LilyPond take advantage of current multithreaded processors.  This will be
-hard, as there are many interdependent things in LilyPond.  Mentoring
-from one of the main authors (Han-Wen or Jan) may be necessary.
-
+Also known as GLISS (Grand Lilypond Input Syntax Standarization).
+Unfortunately, this project is not well-defined.
