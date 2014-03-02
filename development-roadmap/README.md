@@ -1,5 +1,15 @@
 This is intended as a high-level overview of what we should do with Lilypond.
 
+TODO How is this different from an issue tracker?
+
+NOTE: this is a very chaotic dump right now, should improve in aaa few hours.
+
+Benchmarks
+
+GOP
+
+GLISS
+
 Any specific research about specific issues doesn't belong here.
 
 This is in no way a concrete plan and there's no guarantee that we'll do this stuff in any order or deadline.
