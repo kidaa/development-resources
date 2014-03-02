@@ -16,6 +16,14 @@ This is in no way a concrete plan and there's no guarantee that we'll do this st
 
 urs musicology roadmap (cannot find it at the moment.... Urs?)
 
+
+Gsoc ideas page:
+- grace notes
+- ties
+- slurs
+
+
+
 david K email:
 
 
@@ -45,33 +53,43 @@ Bachelor:
 
 
 
-MusicXML export and improved import
+### MusicXML
+
+Add MusicXML export and improved import.
 - Peter Bjuhr's already working on it
 - integrating improvements from Philomelos
 
+TODO: link to all musicXML-related notes, plans, resources etc. Or maybe they should
+be placed in this repo?
 
-Gsoc ideas page:
-- grace notes
-- ties
-- slurs
 
-font:
+
+### Music fonts:
+- adding a framework for easy switching between various fonts, support Gonville
 - making font weight independent from size
 - adding variants of font glyphs
 - clening up mf code
 - parametrizing code so that other style glyphs could be easily produced from it (what i did with naturals)
 
-lyrics
 
-spacing
+### spacing
 - area spacing
 - magnetic spacing
+- elastic placement
+- lyrics
+- default page margins&layout
 
-elastic placement
 
-default page margins&layout
+### Improving partcombine
 
-partcombine
+`\partcombine` is a very useful feature of LilyPond, but currectly it is severely
+limited.  It would be good to:
+* add built-in support for lyrics
+* add support for combining more than 2 voices
+* add support for partcombining staves (for example, if there's a very
+  complicated passage being combined, temporary stave(s) should be added
+  when necessary)
+
 
 instruments:
 - easier to construct \score blocks
@@ -79,11 +97,14 @@ instruments:
 - simplifying orchestralLily
 - helping Denemo support all lilypond files
 
-musicxml export, better import
-
 frescobaldi graphical editing
 
-multithreading
+
+### Multithreading
+
+Make LilyPond take advantage of current multithreaded processors.  This will be
+hard, as there are many interdependent things in LilyPond.  Mentoring
+from one of the main authors (Han-Wen or Jan) may be necessary.
 
 migrating to Guile
 
