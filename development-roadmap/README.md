@@ -9,7 +9,8 @@ issues.
 
 TODO we should probably move here all stuff from http://lilypond.org/gsoc-2012.html.
 
-TODO: add Urs' "musicology roadmap" (cannot find it at the moment.... Urs?)
+TODO: add Urs' "musicology roadmap", currently a `.tex` document in
+[this repository](https://github.com/openlilylib/misc/tree/master/musicology-roadmap)
 
 
 ### Suggestions from David Kastrup's email:
