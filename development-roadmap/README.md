@@ -12,6 +12,7 @@ TODO we should probably move here all stuff from http://lilypond.org/gsoc-2012.h
 TODO: add Urs' "musicology roadmap", currently a `.tex` document in
 [this repository](https://github.com/openlilylib/misc/tree/master/musicology-roadmap)
 
+TODO put this somewhere: turning lilypond into a platform/library, like Adam Spiers said
 
 ### Suggestions from David Kastrup's email:
 
@@ -132,6 +133,11 @@ good thing.
 - orchestralLily could serve as an inspiration
 - this may be a step towards Denemo supporting all lilypond files
   (not just the ones that created by itself)
+
+
+### Other templates
+
+Jan-Peter Voigt's Lalily, Reinhold's OrchestralLily and others
 
 
 ### GUI
